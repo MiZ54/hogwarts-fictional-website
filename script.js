@@ -191,7 +191,7 @@ registerHeading.addEventListener('click',()=>{
 const staff = document.querySelector(".staffs");
 
 const staffsApi = function () {
-  fetch(`http://hp-api.herokuapp.com/api/characters/staff`)
+  fetch(`https://hp-api.herokuapp.com/api/characters/staff`)
     .then((response) => {
       return response.json();
     })
@@ -252,7 +252,7 @@ let charNames = '';
 const allHogwartsCharecters = document.querySelector(".characters-inhogwarts");
 const allHogwartsTypes = document.querySelector(".types-inhogwarts");
 const charactersAll = function(){
-  fetch(`http://hp-api.herokuapp.com/api/characters`)
+  fetch(`https://hp-api.herokuapp.com/api/characters`)
   .then(res=> {return res.json()})
   .then(data=>{
     data.forEach(function (charData) {
@@ -291,7 +291,7 @@ const charactersAll = function(){
 
 // type of characters in hogwarts
 const charactersTypes = function(types){
-  fetch(`http://hp-api.herokuapp.com/api/characters/house/${types}`)
+  fetch(`https://hp-api.herokuapp.com/api/characters/house/${types}`)
   .then(res=> {return res.json()})
   .then(data=>{
     data.forEach(function (charData) {
