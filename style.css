@@ -983,6 +983,9 @@ body {
   .sorting-hat h1{
     font-size: 3em;
   }
+  .house-name{
+    font-size: 6em;
+  }
 }
 @media (max-width:481px) {
   .houses-in-hogwarts {
@@ -991,6 +994,9 @@ body {
     top: 72px;
     bottom: 81px;
   }
+  .house-name{
+    font-size: 4em;
+  }
 }
 @media (max-width:375px) {
   .houses-in-hogwarts {
@@ -998,6 +1004,9 @@ body {
     left: 0;
     top: 72px;
     bottom: 61px;
+  }
+  .house-name{
+    font-size: 3em;
   }
 }
 
